@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <ShareSDK/ShareSDK.h>
+
 
 @interface AppDelegate ()
             
@@ -17,6 +19,8 @@
             
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [ShareSDK registerApp:@"2148659ede40"];
+    [ShareSDK connectSinaWeiboWithAppKey:@"4003638958" appSecret:@"648b387fda4b6e1c62c0f9febf84c7cc" redirectUri:@"https://github.com/geasscode/TitansProject"];
     // Override point for customization after application launch.
     return YES;
 }
