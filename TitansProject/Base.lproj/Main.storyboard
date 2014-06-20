@@ -17,12 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUb-Vb-VRj">
-                                <rect key="frame" x="220" y="225" width="40" height="30"/>
-                                <state key="normal" title="Share">
+                                <rect key="frame" x="165" y="232" width="70" height="30"/>
+                                <state key="normal" title="SinaShare">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="btnShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y3I-fF-gac"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9R-6K-LSc">
+                                <rect key="frame" x="165" y="282" width="94" height="30"/>
+                                <state key="normal" title="WeixingShare">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnWeixinShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nbf-uo-G9l"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -8,20 +8,40 @@
 
 #import "AppDelegate.h"
 #import <ShareSDK/ShareSDK.h>
-
+#import "WeiboApi.h"
+#import "WXApi.h"
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/TencentOAuth.h>
 
 @interface AppDelegate ()
-            
+
 
 @end
 
 @implementation AppDelegate
-            
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [ShareSDK registerApp:@"2148659ede40"];
+    [ShareSDK registerApp:@"2160fe96d444"];
     [ShareSDK connectSinaWeiboWithAppKey:@"4003638958" appSecret:@"648b387fda4b6e1c62c0f9febf84c7cc" redirectUri:@"https://github.com/geasscode/TitansProject"];
-    // Override point for customization after application launch.
+    
+    [ShareSDK connectWeChatWithAppId:@"wx6dd7a9b94f3dd72a"  wechatCls:[WXApi class]];
+    //此参数为申请的微信AppID
+    //导入微信需要的外部库类型，如果不需要微信分享可以不调用此方法
+    [ShareSDK importWeChatClass:[WXApi class]];
+    
+    
+    //添加QQ应用
+    [ShareSDK connectQQWithQZoneAppKey:@"101128744"                 //该参数填入申请的QQ AppId
+                     qqApiInterfaceCls:[QQApiInterface class]
+                       tencentOAuthCls:[TencentOAuth class]];
+    
+    //导入QQ互联和QQ好友分享需要的外部库类型，如果不需要QQ空间SSO和QQ好友分享可以不调用此方法
+    [ShareSDK importQQClass:[QQApiInterface class]
+            tencentOAuthCls:[TencentOAuth class]];
+
+    
+            // Override point for customization after application launch.
     return YES;
 }
 
@@ -45,6 +65,20 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application  handleOpenURL:(NSURL *)url
+{
+    return [ShareSDK handleOpenURL:url
+                        wxDelegate:self];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [ShareSDK handleOpenURL:url
+                 sourceApplication:sourceApplication
+                        annotation:annotation
+                        wxDelegate:self];
 }
 
 @end
