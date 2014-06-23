@@ -84,6 +84,11 @@
 		F727F8D719540A3500BDB5F5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F727F8D619540A3500BDB5F5 /* libsqlite3.dylib */; };
 		F727F8D919540B2300BDB5F5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F727F8D819540B2300BDB5F5 /* MessageUI.framework */; };
 		F727F8DB19540BB100BDB5F5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F727F8DA19540BB100BDB5F5 /* SystemConfiguration.framework */; };
+		F773D2F119580D84004193EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773D2F019580D84004193EF /* AppDelegate.swift */; };
+		F773D2F319580D84004193EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773D2F219580D84004193EF /* ViewController.swift */; };
+		F773D2F619580D84004193EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F773D2F419580D84004193EF /* Main.storyboard */; };
+		F773D2F819580D84004193EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F773D2F719580D84004193EF /* Images.xcassets */; };
+		F773D30419580D84004193EF /* TitansSwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773D30319580D84004193EF /* TitansSwiftProjectTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +98,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = F727F7901953E63800BDB5F5;
 			remoteInfo = TitansProject;
+		};
+		F773D2FE19580D84004193EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F727F7891953E63800BDB5F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F773D2EB19580D83004193EF;
+			remoteInfo = TitansSwiftProject;
+		};
+		F773D30B19580D85004193EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F727F7891953E63800BDB5F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F773D2EB19580D83004193EF;
+			remoteInfo = TitansSwiftProject;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -187,6 +206,15 @@
 		F727F8D619540A3500BDB5F5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F727F8D819540B2300BDB5F5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		F727F8DA19540BB100BDB5F5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F773D2EC19580D83004193EF /* TitansSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitansSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F773D2EF19580D84004193EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F773D2F019580D84004193EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F773D2F219580D84004193EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F773D2F519580D84004193EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F773D2F719580D84004193EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F773D2FD19580D84004193EF /* TitansSwiftProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitansSwiftProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F773D30219580D84004193EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F773D30319580D84004193EF /* TitansSwiftProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitansSwiftProjectTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +290,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F773D2E919580D83004193EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F773D2FA19580D84004193EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -280,6 +322,8 @@
 				F727F7B71953E7D200BDB5F5 /* ShareSDK */,
 				F727F7931953E63800BDB5F5 /* TitansProject */,
 				F727F7AA1953E63800BDB5F5 /* TitansProjectTests */,
+				F773D2ED19580D84004193EF /* TitansSwiftProject */,
+				F773D30019580D84004193EF /* TitansSwiftProjectTests */,
 				F727F7921953E63800BDB5F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -289,6 +333,8 @@
 			children = (
 				F727F7911953E63800BDB5F5 /* TitansProject.app */,
 				F727F7A71953E63800BDB5F5 /* TitansProjectTests.xctest */,
+				F773D2EC19580D83004193EF /* TitansSwiftProject.app */,
+				F773D2FD19580D84004193EF /* TitansSwiftProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -512,6 +558,43 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		F773D2ED19580D84004193EF /* TitansSwiftProject */ = {
+			isa = PBXGroup;
+			children = (
+				F773D2F019580D84004193EF /* AppDelegate.swift */,
+				F773D2F219580D84004193EF /* ViewController.swift */,
+				F773D2F419580D84004193EF /* Main.storyboard */,
+				F773D2F719580D84004193EF /* Images.xcassets */,
+				F773D2EE19580D84004193EF /* Supporting Files */,
+			);
+			path = TitansSwiftProject;
+			sourceTree = "<group>";
+		};
+		F773D2EE19580D84004193EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F773D2EF19580D84004193EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F773D30019580D84004193EF /* TitansSwiftProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				F773D30319580D84004193EF /* TitansSwiftProjectTests.swift */,
+				F773D30119580D84004193EF /* Supporting Files */,
+			);
+			path = TitansSwiftProjectTests;
+			sourceTree = "<group>";
+		};
+		F773D30119580D84004193EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F773D30219580D84004193EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -550,6 +633,42 @@
 			productReference = F727F7A71953E63800BDB5F5 /* TitansProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F773D2EB19580D83004193EF /* TitansSwiftProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F773D30919580D84004193EF /* Build configuration list for PBXNativeTarget "TitansSwiftProject" */;
+			buildPhases = (
+				F773D2E819580D83004193EF /* Sources */,
+				F773D2E919580D83004193EF /* Frameworks */,
+				F773D2EA19580D83004193EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TitansSwiftProject;
+			productName = TitansSwiftProject;
+			productReference = F773D2EC19580D83004193EF /* TitansSwiftProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F773D2FC19580D84004193EF /* TitansSwiftProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F773D30A19580D84004193EF /* Build configuration list for PBXNativeTarget "TitansSwiftProjectTests" */;
+			buildPhases = (
+				F773D2F919580D84004193EF /* Sources */,
+				F773D2FA19580D84004193EF /* Frameworks */,
+				F773D2FB19580D84004193EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F773D2FF19580D84004193EF /* PBXTargetDependency */,
+				F773D30C19580D85004193EF /* PBXTargetDependency */,
+			);
+			name = TitansSwiftProjectTests;
+			productName = TitansSwiftProjectTests;
+			productReference = F773D2FD19580D84004193EF /* TitansSwiftProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -565,6 +684,13 @@
 					F727F7A61953E63800BDB5F5 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = F727F7901953E63800BDB5F5;
+					};
+					F773D2EB19580D83004193EF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F773D2FC19580D84004193EF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F773D2EB19580D83004193EF;
 					};
 				};
 			};
@@ -584,6 +710,8 @@
 			targets = (
 				F727F7901953E63800BDB5F5 /* TitansProject */,
 				F727F7A61953E63800BDB5F5 /* TitansProjectTests */,
+				F773D2EB19580D83004193EF /* TitansSwiftProject */,
+				F773D2FC19580D84004193EF /* TitansSwiftProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -618,6 +746,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F773D2EA19580D83004193EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F773D2F619580D84004193EF /* Main.storyboard in Resources */,
+				F773D2F819580D84004193EF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F773D2FB19580D84004193EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -639,6 +783,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F773D2E819580D83004193EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F773D2F319580D84004193EF /* ViewController.swift in Sources */,
+				F773D2F119580D84004193EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F773D2F919580D84004193EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F773D30419580D84004193EF /* TitansSwiftProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -646,6 +807,16 @@
 			isa = PBXTargetDependency;
 			target = F727F7901953E63800BDB5F5 /* TitansProject */;
 			targetProxy = F727F7A81953E63800BDB5F5 /* PBXContainerItemProxy */;
+		};
+		F773D2FF19580D84004193EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F773D2EB19580D83004193EF /* TitansSwiftProject */;
+			targetProxy = F773D2FE19580D84004193EF /* PBXContainerItemProxy */;
+		};
+		F773D30C19580D85004193EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F773D2EB19580D83004193EF /* TitansSwiftProject */;
+			targetProxy = F773D30B19580D85004193EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -665,6 +836,14 @@
 				F727F7DE1953E7D200BDB5F5 /* zh-Hans */,
 			);
 			name = ShareSDKLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		F773D2F419580D84004193EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F773D2F519580D84004193EF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -842,6 +1021,71 @@
 			};
 			name = Release;
 		};
+		F773D30519580D84004193EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TitansSwiftProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F773D30619580D84004193EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TitansSwiftProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F773D30719580D84004193EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TitansSwiftProject.app/TitansSwiftProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TitansSwiftProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F773D30819580D84004193EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TitansSwiftProject.app/TitansSwiftProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TitansSwiftProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -861,12 +1105,30 @@
 				F727F7B31953E63800BDB5F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F727F7B41953E63800BDB5F5 /* Build configuration list for PBXNativeTarget "TitansProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F727F7B51953E63800BDB5F5 /* Debug */,
 				F727F7B61953E63800BDB5F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F773D30919580D84004193EF /* Build configuration list for PBXNativeTarget "TitansSwiftProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F773D30519580D84004193EF /* Debug */,
+				F773D30619580D84004193EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F773D30A19580D84004193EF /* Build configuration list for PBXNativeTarget "TitansSwiftProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F773D30719580D84004193EF /* Debug */,
+				F773D30819580D84004193EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
