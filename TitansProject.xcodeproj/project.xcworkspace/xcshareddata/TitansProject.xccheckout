@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B50C5937-78EF-4A4F-92B6-40CCB77EA7D3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TitansProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B01A7088-C663-44BF-AF4A-D7F9822FFFFA</key>
+		<string>ssh://github.com/geasscode/TitansProject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TitansProject.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B01A7088-C663-44BF-AF4A-D7F9822FFFFA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/geasscode/TitansProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B01A7088-C663-44BF-AF4A-D7F9822FFFFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B01A7088-C663-44BF-AF4A-D7F9822FFFFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TitansProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>
