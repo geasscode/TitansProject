@@ -25,6 +25,7 @@ static NSString *WechatSessionTitle  = @"微信好友分享";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //new add
 }
 
 - (void)didReceiveMemoryWarning {
@@ -155,7 +156,69 @@ static NSString *WechatSessionTitle  = @"微信好友分享";
     
 }
 
+- (IBAction)btnSimple:(id)sender {
+    
+//    id<ISSShareOptions> simpleShareOptions =
+//    [ShareSDK simpleShareOptionsWithTitle:@"内容分享"
+//                        shareViewDelegate:nil ];
+//    
+//    
+//    [ShareSDK showShareViewWithType:myShareType
+//                          container:myContainer
+//                            content:CONTENT
+//                      statusBarTips:NO
+//                        authOptions:nil
+//                       shareOptions:simpleShareOptions
+//                             result:nil];
+}
 
+/*
+- (IBAction)btnOneKeyShare:(id)sender {
+    
+    NSArray *oneKeyShareList = [ShareSDK getShareListWithType:
+                                ShareTypeSinaWeibo,
+                                ShareTypeTencentWeibo,
+                                nil];
+    
+    id<ISSShareOptions> shareOptions = [ShareSDK defaultShareOptionsWithTitle:nil      //分享视图标题
+                                                              oneKeyShareList:oneKeyShareList           //一键分享菜单
+                                                               qqButtonHidden:NO                               //QQ分享按钮是否隐藏
+                                                        wxSessionButtonHidden:NO                   //微信好友分享按钮是否隐藏
+                                                       wxTimelineButtonHidden:NO                 //微信朋友圈分享按钮是否隐藏
+                                                         showKeyboardOnAppear:NO                  //是否显示键盘
+                                                            shareViewDelegate:nil                            //分享视图委托
+                                                          friendsViewDelegate:nil                          //好友视图委托
+                                                        picViewerViewDelegate:nil];                    //图片浏览视图委托
+    
+    NSString *CONTENT = @"使用 ShareSDK 分享到微信很容易！";
 
+    //构造分享内容
+    id<ISSContent> publishContent = [ShareSDK content:CONTENT
+                                       defaultContent:@""
+                                                image:[ShareSDK imageWithPath:nil]
+                                                title:@"ShareSDK"
+                                                  url:@"http://www.sharesdk.cn"
+                                          description:@"这是一条测试信息"
+                                            mediaType:SSPublishContentMediaTypeNews];
+    //弹出分享菜单
+    [ShareSDK showShareActionSheet:nil
+                         shareList:nil
+                           content:publishContent
+                     statusBarTips:YES
+                       authOptions:nil
+                      shareOptions:shareOptions                    //传入分享选项对象
+                            result:^(ShareType type, SSPublishContentState state, id<ISSStatusInfo> statusInfo, id<ICMErrorInfo> error, BOOL end) {
+                                if (state == SSPublishContentStateSuccess)
+                                {
+                                    NSLog(@"分享成功");
+                                }
+                                else if (state == SSPublishContentStateFail)
+                                {
+                                    NSLog(@"分享失败,错误码:%d,错误描述:%@", [error errorCode], [error errorDescription]);
+                                }
+                            }];
+    
+}
+*/
 
 @end

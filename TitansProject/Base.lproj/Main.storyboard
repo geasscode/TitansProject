@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUb-Vb-VRj">
-                                <rect key="frame" x="165" y="232" width="70" height="30"/>
+                                <rect key="frame" x="193" y="132" width="70" height="30"/>
                                 <state key="normal" title="SinaShare">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -26,12 +26,30 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9R-6K-LSc">
-                                <rect key="frame" x="165" y="282" width="94" height="30"/>
+                                <rect key="frame" x="193" y="182" width="94" height="30"/>
                                 <state key="normal" title="WeixingShare">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="btnWeixinShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nbf-uo-G9l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgB-av-xxn">
+                                <rect key="frame" x="181" y="236" width="94" height="30"/>
+                                <state key="normal" title="OneKeyShare">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnOneKeyShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YNR-yo-WSF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8I-r6-cSD">
+                                <rect key="frame" x="181" y="285" width="87" height="30"/>
+                                <state key="normal" title="SimpleShare">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSimple:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TNk-5z-e5i"/>
                                 </connections>
                             </button>
                         </subviews>

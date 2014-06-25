@@ -23,7 +23,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [ShareSDK registerApp:@"2160fe96d444"];
-    [ShareSDK connectSinaWeiboWithAppKey:@"4003638958" appSecret:@"648b387fda4b6e1c62c0f9febf84c7cc" redirectUri:@"https://github.com/geasscode/TitansProject"];
+    [ShareSDK connectSinaWeiboWithAppKey:@"4003638958" appSecret:@"648b387fda4b6e1c62c0f9febf84c7cc" redirectUri:@"http://www.sharesdk.cn"];
     
     [ShareSDK connectWeChatWithAppId:@"wx6dd7a9b94f3dd72a"  wechatCls:[WXApi class]];
     //此参数为申请的微信AppID
