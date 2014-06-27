@@ -31,7 +31,7 @@ class Promise : Finishable {
         return Promise()
     }
     
-    // Resolve method.
+    // Resolve method. ss
     //
     // Returns a resolve function that loops through pending callbacks,
     // invoking each in sequence.
