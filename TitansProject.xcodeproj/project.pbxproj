@@ -50,6 +50,7 @@
 		F723B224195ADA9C00DB5FFF /* restrictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723B210195ADA9C00DB5FFF /* restrictions.swift */; };
 		F723B225195ADA9C00DB5FFF /* SequenceOf+Linq.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723B211195ADA9C00DB5FFF /* SequenceOf+Linq.swift */; };
 		F723B226195ADA9C00DB5FFF /* setoperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723B212195ADA9C00DB5FFF /* setoperators.swift */; };
+		F723B22C195D5BEB00DB5FFF /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723B22B195D5BEB00DB5FFF /* Promise.swift */; };
 		F727F7971953E63800BDB5F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F727F7961953E63800BDB5F5 /* main.m */; };
 		F727F79A1953E63800BDB5F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F727F7991953E63800BDB5F5 /* AppDelegate.m */; };
 		F727F79D1953E63800BDB5F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F727F79C1953E63800BDB5F5 /* ViewController.m */; };
@@ -275,6 +276,7 @@
 		F723B210195ADA9C00DB5FFF /* restrictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restrictions.swift; sourceTree = "<group>"; };
 		F723B211195ADA9C00DB5FFF /* SequenceOf+Linq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SequenceOf+Linq.swift"; sourceTree = "<group>"; };
 		F723B212195ADA9C00DB5FFF /* setoperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setoperators.swift; sourceTree = "<group>"; };
+		F723B22B195D5BEB00DB5FFF /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
 		F727F7911953E63800BDB5F5 /* TitansProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitansProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F727F7951953E63800BDB5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F727F7961953E63800BDB5F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -575,6 +577,14 @@
 			path = LinqLib;
 			sourceTree = "<group>";
 		};
+		F723B22A195D5BB100DB5FFF /* promises */ = {
+			isa = PBXGroup;
+			children = (
+				F723B22B195D5BEB00DB5FFF /* Promise.swift */,
+			);
+			path = promises;
+			sourceTree = "<group>";
+		};
 		F727F7881953E63800BDB5F5 = {
 			isa = PBXGroup;
 			children = (
@@ -836,6 +846,7 @@
 		F773D2ED19580D84004193EF /* TitansSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				F723B22A195D5BB100DB5FFF /* promises */,
 				F773D2F019580D84004193EF /* AppDelegate.swift */,
 				F773D2F219580D84004193EF /* ViewController.swift */,
 				F773D2F419580D84004193EF /* Main.storyboard */,
@@ -1226,6 +1237,7 @@
 				F773D2F319580D84004193EF /* ViewController.swift in Sources */,
 				F773D30E195810C6004193EF /* File.swift in Sources */,
 				F773D2F119580D84004193EF /* AppDelegate.swift in Sources */,
+				F723B22C195D5BEB00DB5FFF /* Promise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1651,6 +1663,7 @@
 				F723B1CE195AD2A100DB5FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F723B1CF195AD2A100DB5FFF /* Build configuration list for PBXNativeTarget "MyFavLinqTests" */ = {
 			isa = XCConfigurationList;
@@ -1659,6 +1672,7 @@
 				F723B1D1195AD2A100DB5FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F727F78C1953E63800BDB5F5 /* Build configuration list for PBXProject "TitansProject" */ = {
 			isa = XCConfigurationList;

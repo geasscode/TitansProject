@@ -18,4 +18,14 @@ extension MapCollectionView {
         }
         return to
     }
+    
+    //test by desmond 
+    /*
+    func map<T>(array: T[], callback: (T) -> T) -> T[] {
+        var newarray: T[] = []
+        for elem in array {
+            newarray.append(callback(elem))
+        }
+        return newarray
+    } */
 }
