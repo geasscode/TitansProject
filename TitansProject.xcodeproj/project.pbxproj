@@ -128,6 +128,7 @@
 		F727F8D719540A3500BDB5F5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F727F8D619540A3500BDB5F5 /* libsqlite3.dylib */; };
 		F727F8D919540B2300BDB5F5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F727F8D819540B2300BDB5F5 /* MessageUI.framework */; };
 		F727F8DB19540BB100BDB5F5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F727F8DA19540BB100BDB5F5 /* SystemConfiguration.framework */; };
+		F76F1C2819656A6600B0A1BE /* LinqFuction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F1C2719656A6600B0A1BE /* LinqFuction.swift */; };
 		F773D2F119580D84004193EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773D2F019580D84004193EF /* AppDelegate.swift */; };
 		F773D2F319580D84004193EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773D2F219580D84004193EF /* ViewController.swift */; };
 		F773D2F619580D84004193EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F773D2F419580D84004193EF /* Main.storyboard */; };
@@ -367,6 +368,7 @@
 		F727F8D619540A3500BDB5F5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F727F8D819540B2300BDB5F5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		F727F8DA19540BB100BDB5F5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F76F1C2719656A6600B0A1BE /* LinqFuction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinqFuction.swift; sourceTree = "<group>"; };
 		F773D2EC19580D83004193EF /* TitansSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitansSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F773D2EF19580D84004193EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F773D2F019580D84004193EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -843,9 +845,18 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		F76F1C2619656A2F00B0A1BE /* dotNetSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F76F1C2719656A6600B0A1BE /* LinqFuction.swift */,
+			);
+			path = dotNetSwift;
+			sourceTree = "<group>";
+		};
 		F773D2ED19580D84004193EF /* TitansSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				F76F1C2619656A2F00B0A1BE /* dotNetSwift */,
 				F723B22A195D5BB100DB5FFF /* promises */,
 				F773D2F019580D84004193EF /* AppDelegate.swift */,
 				F773D2F219580D84004193EF /* ViewController.swift */,
@@ -1236,6 +1247,7 @@
 			files = (
 				F773D2F319580D84004193EF /* ViewController.swift in Sources */,
 				F773D30E195810C6004193EF /* File.swift in Sources */,
+				F76F1C2819656A6600B0A1BE /* LinqFuction.swift in Sources */,
 				F773D2F119580D84004193EF /* AppDelegate.swift in Sources */,
 				F723B22C195D5BEB00DB5FFF /* Promise.swift in Sources */,
 			);
