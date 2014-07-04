@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TitansSwiftProject/ViewController.swift"
-            timestampString = "425554730.213216"
+            timestampString = "426152442.121621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,12 +26,120 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TitansSwiftProject/ViewController.swift"
-            timestampString = "425906597.146345"
+            timestampString = "426152442.121621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TitansSwiftProject/SwiftUI/CustomizeUI.swift"
+            timestampString = "426137388.100821"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "beginTrackingWithTouch(_:withEvent:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TitansSwiftProject.CustomizeButtonUI.beginTrackingWithTouch (TitansSwiftProject.CustomizeButtonUI)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITouch&gt;, withEvent : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIEvent&gt;) -&gt; Swift.Bool"
+                  moduleName = "TitansSwiftProject"
+                  urlString = "file:///Users/desmond/Documents/MyWorkingProject/TestProject/SwiftGithub/TitansProject/TitansSwiftProject/SwiftUI/CustomizeUI.swift"
+                  timestampString = "426137432.496403"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "589">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TitansSwiftProject.CustomizeButtonUI.(beginTrackingWithTouch (TitansSwiftProject.CustomizeButtonUI) -&gt; (Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITouch&gt;, withEvent : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIEvent&gt;) -&gt; Swift.Bool).(closure #1)"
+                  moduleName = "TitansSwiftProject"
+                  urlString = "file:///Users/desmond/Documents/MyWorkingProject/TestProject/SwiftGithub/TitansProject/TitansSwiftProject/SwiftUI/CustomizeUI.swift"
+                  timestampString = "426137432.496533"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "reabstraction thunk helper from @callee_owned () -&gt; (@unowned ()) to @callee_owned (@in ()) -&gt; (@out ())"
+                  moduleName = "TitansSwiftProject"
+                  urlString = "file:///Users/desmond/Documents/MyWorkingProject/TestProject/SwiftGithub/TitansProject/TitansSwiftProject/SwiftUI/CustomizeUI.swift"
+                  timestampString = "426137432.496634"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TitansSwiftProject/JSONParse/SwiftJSON.swift"
+            timestampString = "426152881.713536"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
+            landmarkName = "==(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TitansSwiftProject/ViewController.swift"
+            timestampString = "426159766.041944"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "loadJSONFile()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TitansSwiftProject/ViewController.swift"
+            timestampString = "426159768.35944"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "loadJSONFile()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

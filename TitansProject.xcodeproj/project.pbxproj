@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		58DDBD9FDDAC4CD991CB908F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D014C268D32432B9DFD4668 /* libPods.a */; };
+		F70CD1CB1966B7F100DCDEDD /* SwiftQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70CD1CA1966B7F100DCDEDD /* SwiftQL.swift */; };
 		F723B1B8195AD2A100DB5FFF /* MyFavLinq.h in Headers */ = {isa = PBXBuildFile; fileRef = F723B1B7195AD2A100DB5FFF /* MyFavLinq.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F723B1BE195AD2A100DB5FFF /* MyFavLinq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F723B1B3195AD2A000DB5FFF /* MyFavLinq.framework */; };
 		F723B1C5195AD2A100DB5FFF /* MyFavLinqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723B1C4195AD2A100DB5FFF /* MyFavLinqTests.swift */; };
@@ -135,6 +136,10 @@
 		F773D2F819580D84004193EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F773D2F719580D84004193EF /* Images.xcassets */; };
 		F773D30419580D84004193EF /* TitansSwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773D30319580D84004193EF /* TitansSwiftProjectTests.swift */; };
 		F773D30E195810C6004193EF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773D30D195810C6004193EF /* File.swift */; };
+		F7BB1AAE19664EF800204002 /* CustomizeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BB1AAD19664EF800204002 /* CustomizeUI.swift */; };
+		F7BB1AB119668E1C00204002 /* SwiftJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BB1AB019668E1C00204002 /* SwiftJSON.swift */; };
+		F7BB1AB51966949100204002 /* Valid.JSON in Resources */ = {isa = PBXBuildFile; fileRef = F7BB1AB41966949100204002 /* Valid.JSON */; };
+		F7BB1AB71966A26000204002 /* customers.JSON in Resources */ = {isa = PBXBuildFile; fileRef = F7BB1AB61966A26000204002 /* customers.JSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -234,6 +239,7 @@
 /* Begin PBXFileReference section */
 		5D014C268D32432B9DFD4668 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7102BCA8B2A94B218BBBC781 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F70CD1CA1966B7F100DCDEDD /* SwiftQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftQL.swift; sourceTree = "<group>"; };
 		F723B1B3195AD2A000DB5FFF /* MyFavLinq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFavLinq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F723B1B6195AD2A100DB5FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F723B1B7195AD2A100DB5FFF /* MyFavLinq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFavLinq.h; sourceTree = "<group>"; };
@@ -379,6 +385,10 @@
 		F773D30219580D84004193EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F773D30319580D84004193EF /* TitansSwiftProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitansSwiftProjectTests.swift; sourceTree = "<group>"; };
 		F773D30D195810C6004193EF /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		F7BB1AAD19664EF800204002 /* CustomizeUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeUI.swift; sourceTree = "<group>"; };
+		F7BB1AB019668E1C00204002 /* SwiftJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJSON.swift; sourceTree = "<group>"; };
+		F7BB1AB41966949100204002 /* Valid.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Valid.JSON; sourceTree = "<group>"; };
+		F7BB1AB61966A26000204002 /* customers.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = customers.JSON; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -849,6 +859,7 @@
 			isa = PBXGroup;
 			children = (
 				F76F1C2719656A6600B0A1BE /* LinqFuction.swift */,
+				F70CD1CA1966B7F100DCDEDD /* SwiftQL.swift */,
 			);
 			path = dotNetSwift;
 			sourceTree = "<group>";
@@ -856,6 +867,10 @@
 		F773D2ED19580D84004193EF /* TitansSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				F7BB1AB61966A26000204002 /* customers.JSON */,
+				F7BB1AB41966949100204002 /* Valid.JSON */,
+				F7BB1AAF19668E0200204002 /* JSONParse */,
+				F7BB1AAC19664ED100204002 /* SwiftUI */,
 				F76F1C2619656A2F00B0A1BE /* dotNetSwift */,
 				F723B22A195D5BB100DB5FFF /* promises */,
 				F773D2F019580D84004193EF /* AppDelegate.swift */,
@@ -891,6 +906,22 @@
 				F773D30219580D84004193EF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7BB1AAC19664ED100204002 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F7BB1AAD19664EF800204002 /* CustomizeUI.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		F7BB1AAF19668E0200204002 /* JSONParse */ = {
+			isa = PBXGroup;
+			children = (
+				F7BB1AB019668E1C00204002 /* SwiftJSON.swift */,
+			);
+			path = JSONParse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1132,6 +1163,8 @@
 			files = (
 				F773D2F619580D84004193EF /* Main.storyboard in Resources */,
 				F773D2F819580D84004193EF /* Images.xcassets in Resources */,
+				F7BB1AB51966949100204002 /* Valid.JSON in Resources */,
+				F7BB1AB71966A26000204002 /* customers.JSON in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1246,10 +1279,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F773D2F319580D84004193EF /* ViewController.swift in Sources */,
+				F7BB1AAE19664EF800204002 /* CustomizeUI.swift in Sources */,
+				F70CD1CB1966B7F100DCDEDD /* SwiftQL.swift in Sources */,
 				F773D30E195810C6004193EF /* File.swift in Sources */,
 				F76F1C2819656A6600B0A1BE /* LinqFuction.swift in Sources */,
 				F773D2F119580D84004193EF /* AppDelegate.swift in Sources */,
 				F723B22C195D5BEB00DB5FFF /* Promise.swift in Sources */,
+				F7BB1AB119668E1C00204002 /* SwiftJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
